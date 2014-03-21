@@ -1,0 +1,5 @@
+# https://github.com/geun/capistrano-modules/tree/master/lib/capistrano/puppet
+servers:
+  'www.example.com'
+    'roles':
+      - 'apache'

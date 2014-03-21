@@ -1,0 +1,12 @@
+:backends:
+  - yaml
+
+:hierarchy:
+  - "<%= host %>"
+  - "%{stage}"
+  - "default"
+
+:yaml:
+  :datadir: "/etc/puppet/hiera"
+
+:merge_behavior: deeper
